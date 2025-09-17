@@ -5,6 +5,9 @@
       <label for="registrationId">Enter Registration ID:</label>
       <input type="number" v-model.number="registrationId" min="1" required />
       <button type="submit">Search</button>
+       <label for="StudentId">Enter Student ID:</label>
+      <input type="number" v-model.number="StudentId" min="1" required />
+      <button type="submit">Search</button>
     </form>
 
     <div v-if="loading">Loading...</div>
